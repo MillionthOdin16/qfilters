@@ -85,6 +85,11 @@ python make_filters.py \
 huggingface-cli upload path_to_hf_repo path_to_local_qfilters .
 ```
 
+## Benchmark Q-Filters
+To benchmark the performance of Q-Filters against the standard implementation, follow these steps:
+1. Open the `benchmark_qfilters.ipynb` notebook.
+2. Follow the instructions in the notebook to run the benchmark.
+
 ## Citation
 ```bibtex
 @misc{godey2025qfiltersleveragingqkgeometry,
